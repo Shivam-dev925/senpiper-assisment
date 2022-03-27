@@ -1,0 +1,7 @@
+.tRow>td>button{
+    visibility: hidden;
+}
+
+.tRow:hover button{
+  visibility: visible;
+}

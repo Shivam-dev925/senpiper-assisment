@@ -1,0 +1,76 @@
+ .form{
+
+   background-color: #fff;
+  height: calc(100vh - 200px);
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 30px;
+  border-radius: 5px;
+ }
+
+.formItems1 {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: start;
+}
+
+.formItems2{
+  position: relative;
+}
+
+.formItems1 > div ,.formItems2>.div{
+  width: 100%;
+   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.formItems1 > div > label,.formItems2>.div>label,.radio>p {
+  align-self: start;
+  margin-left: 5px;
+  color: #404b69;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: normal normal normal 14px/17px Roboto;
+}
+
+.formItems1 > div > input,.formItems2 > .div > input  {
+  width: 80%;
+  align-self: start;
+  padding: 10px 40px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: -10px 0px 20px 0px;
+  color: grey;
+  font-size: 14px;
+}
+
+.formItems1 > div:nth-child(2) {
+  margin-top: 20px;
+}
+.formItems1>div:nth-child(3){
+    margin-top: 60px;
+}
+
+.radio>div{
+  display: flex;
+  width: 60%;
+
+  justify-content: space-between;
+  margin-top: 20px;
+
+}
+.radio>div>input{
+  color: violet;
+}
+
+
+/* .formItems1 > div > input:active,
+.formItems1 > div > input:valid,
+.formItems1 > div > input:in-range {
+  box-shadow: 0px 1px 4px #aa94de;
+} */
